@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  font-family: $font;
+}
+
+.section__header {
+  width: 100vw;
+  padding: 1em 10em;
+  display: flex;
+  justify-content: space-between;
+  background-color: $colorBackgroundGrey;
+  color: $colorFontGrey;
+
+  & img {
+    height: 5em;
+    width: 5em;
+  }
+
+  & nav {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+
+    & a {
+      text-decoration: none;
+      color: $colorFontGrey;
+
+      &:hover {
+        color: $colorFontGreyDark;
+      }
+    }
+  }
+}
