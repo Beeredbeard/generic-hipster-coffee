@@ -1,18 +1,26 @@
 body {
-  width: 90vw;
+  width: 80vw;
 }
 menu {
   display: flex;
   flex-direction: column;
 }
 
-.section__main {
+.home {
   display: flex;
   flex-direction: column;
   align-items: center;
   color: #000000;
   font-weight: 300;
   font-family: $font;
+  width: 100%;
+}
+
+#counterimg {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+  width: 100%;
 }
 
 h2 {
@@ -25,21 +33,14 @@ h3 {
   letter-spacing: 2px;
 }
 
-img {
-  width: 1090px;
-  height: 614px;
-  display: flex;
-  align-items: center;
-  margin-top: 3rem;
-}
-
 .section__main__info {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
-.section__main__info h4,
-p {
-  align-items: left;
-  padding: 0.5vh 3vw;
+.section__main__info 
+    {
+  display: flex;
+  gap: 2em;
 }
