@@ -3,6 +3,7 @@ body {
     margin: 0;
     display: flex;
     justify-content: center;
+    font-family: $font;
 }
 
 .menu {
@@ -50,9 +51,8 @@ body {
     width: 2em;
 }
 
-img {
-    width: 1090px;
-    height: 614px;
-    padding-top: 40px;
-    padding-left: 6em;
+.section__main img {
+    width: 100%;
+    position: relative;
+    top: 3em;
 }
